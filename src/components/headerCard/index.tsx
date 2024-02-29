@@ -13,11 +13,6 @@ const HeaderCard = () => {
             <p>ACTIONS</p>
         </li>            
             <CardDesktop/>
-            <CardDesktop/>
-            <CardDesktop/>
-            <CardDesktop/>
-            <CardDesktop/>
-            <CardDesktop/>
         </>
     );
 };
