@@ -21,7 +21,6 @@ const CardMobile = () => {
                     <IoIosCheckmarkCircle
                         className={"cardMobile__check"}
                         size={30}
-
                     />
                 </figure>
                 <section className="cardMobile__data">
@@ -45,7 +44,6 @@ const CardMobile = () => {
                     <IoIosCheckmarkCircle
                         className={"cardMobile__check"}
                         size={30}
-
                     />
                 </figure>
                 <section className="cardMobile__data">

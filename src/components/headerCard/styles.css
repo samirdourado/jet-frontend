@@ -6,10 +6,16 @@
     @apply
     bg-gray-50
     w-full
+    max-w-[desktop]
     h-12
-    flex
-    justify-between
+    grid
+    grid-cols-5
+    grid-rows-1
+    justify-items-stretch
     items-center
+    border-b-[solid] 
+    border-b-[#E5E7Eb]
+    border-b-[1px]
 }
 
 .container__headerCard > p {
