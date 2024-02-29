@@ -7,3 +7,15 @@
   padding: 20;
   box-sizing: border-box;
 }
+
+.available {
+  @apply    
+  bg-green-100
+  text-green-500    
+}
+
+.unavailable {
+  @apply    
+  bg-red-100
+  text-red-500    
+}

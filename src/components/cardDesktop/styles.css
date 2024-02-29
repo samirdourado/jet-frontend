@@ -53,18 +53,16 @@
 .cardDesktop__status {
     @apply
     text-xs
-    font-medium
-    bg-green-100
-    text-green-500
-    flex
-    w-16
+    font-medium    
     pt-1
     pr-2
     pb-1
-    pl-2
+    pl-2    
     rounded-md
     ml-12    
 }
+
+
 
 .cardDesktop__rate {
     @apply

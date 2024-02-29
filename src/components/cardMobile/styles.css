@@ -35,9 +35,17 @@
     object-cover
 }
 
-.cardMobile__check {
+.cardMobile__available {
     @apply
-    text-green-500    
+    text-green-500
+    absolute
+    left--0
+    top--0    
+}
+
+.cardMobile__unavailable {
+    @apply
+    text-red-500
     absolute
     left--0
     top--0    
