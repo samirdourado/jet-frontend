@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container__cardMobile {
+    @apply
+    bg-white
+    w-full
+    min-w-[320px]
+    max-w-[450px]
+    mx-auto
+    flex    
+    justify-between
+    items-start
+    p-5
+    border-b-[solid] 
+    border-b-[#E5E7Eb]
+    border-b-[1px]
+    cursor-pointer
+}
+
+.cardMobile__main {
+    @apply
+    flex
+    gap-5    
+}
+
+.cardMobile__figure {
+    @apply
+    flex    
+}
+
+.cardMobile__image {
+    @apply    
+    object-cover
+}
+
+.cardMobile__check {
+    @apply
+    text-green-500    
+    absolute
+    left--0
+    top--0    
+}
+
+.cardMobile__data {
+    @apply
+    flex
+    flex-col
+    justify-between
+}
+
+.cardMobile__data > h3{
+    @apply
+    text-gray-900
+    font-semibold
+    text-base
+}
+
+.cardMobile__data > p{
+    @apply
+    text-gray-500
+    font-normal
+    text-xs
+}
+
+.cardMobile__data > span{
+    @apply
+    flex
+    flex-row
+    gap-1
+}
