@@ -6,10 +6,9 @@
     @apply
     bg-white
     mx-auto
-    smart:hidden
-    tablet:flex
-    desktop:flex
+    flex
     justify-center
+    flex-col
     desktop:max-w-[1440px]
 
 }
