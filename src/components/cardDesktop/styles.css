@@ -62,17 +62,7 @@
     ml-12    
 }
 
-.available {
-    @apply    
-    bg-green-100
-    text-green-500    
-}
 
-.unavailable {
-    @apply    
-    bg-red-100
-    text-red-500    
-}
 
 .cardDesktop__rate {
     @apply
