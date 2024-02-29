@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container__headerCard {
+    @apply
+    bg-gray-50
+    w-full
+    h-12
+    flex
+    justify-between
+    items-center
+}
+
+.container__headerCard > p {
+    @apply
+    text-gray-500
+    text-xs
+    font-semibold
+    p-16
+}

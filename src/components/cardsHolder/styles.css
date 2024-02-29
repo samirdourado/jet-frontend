@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container__cardsHolder {
+    @apply
+    bg-white
+    mx-auto
+    smart:hidden
+    tablet:flex
+    desktop:flex
+    justify-center
+    desktop:max-w-[1440px]
+
+}

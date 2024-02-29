@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  margin: 0;
-  padding: 20;
-  box-sizing: border-box;
+.container__body {
+    @apply
+    bg-neutral-600
 }
